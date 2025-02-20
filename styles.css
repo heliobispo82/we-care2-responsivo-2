@@ -1,0 +1,177 @@
+* {
+    font-family: "Montserrat Alternates", serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 44px 0 144px 76px;
+   
+}
+
+.link-header {
+    
+   font-weight: 600;
+   font-size: 20px;
+   line-height: 20px;
+   color: #989D9C;
+   cursor: pointer;
+   margin-right: 23px;
+}
+
+.button-header {
+    background: #665AE1;
+    border-radius: 20.5px;
+    width: 130px;
+    height: 41px;
+    border: none;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #ffffff;
+}
+
+
+
+.logo-image {
+    Width: 500px;
+    Height: 400px;
+    margin-left: 120px;
+    display: inline-block;
+   
+}
+
+section {
+    display: inline-block;
+    margin-left: 86px;
+    
+  
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 80px;
+    line-height: 122px;
+    color: #515151;;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 71px;
+    color: #515151;
+
+}
+ 
+p {
+    margin-top: 35px;
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #848484;
+    width: 515px;
+}
+
+.button-main {
+    background: #ADFF00;
+    border-radius: 30px;
+    width: 239px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+   font-weight: 700;
+   font-size: 28px;
+   line-height: 34px;
+   color: #000000;
+   margin-bottom: 10px;
+   margin-left: 100px;
+}
+
+@media screen and (max-width: 1250px) {
+    .logo-image {
+        display: block;
+    }
+
+    section {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    header {
+        display: none;
+    }
+    .logo-image {
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .logo-image {
+       width: 354px;
+       height: 317px;
+       margin-left: 50px;
+    }
+
+    section {
+        margin-left: 50px;
+    }
+
+    h2 {
+        width: 350px;
+        height: 100px;
+        font-size: 43px;
+        margin-left: 20px;
+    }
+
+    p {
+        width: 400px;
+        height: 200px;
+        font-size: 18px;
+        margin-top: 0px;
+    }
+
+    .button-main {
+        display: block;
+        margin-left: 45px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .logo-image {
+       width: 350px;
+       height: 280px;
+       margin-left: 10px;
+    }
+
+    section {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    h1 {
+        font-size: 65px;
+        margin-left: 30px;
+    }
+
+    h2 {
+        width: 350px;
+        height: 200px;
+        font-size: 40px;
+       
+    }
+
+    p {
+   display: none;
+    }
+
+    .button-main {
+        display: block;
+        margin-left: 45px;
+    }
+}
+
+    
